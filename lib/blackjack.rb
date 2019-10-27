@@ -56,7 +56,7 @@ end
 
 def runner
   welcome
-  initial_round = card_total
+  card_total = ini
   hit?
   display_card_total(card_total)
   invalid_command
