@@ -56,9 +56,7 @@ end
 
 def runner
   welcome
-  deal_card
-  dispy_card_total(card_total)
-  prompt_user
+  initial_round
   hit?(card_total)
   invalid_command
 end
