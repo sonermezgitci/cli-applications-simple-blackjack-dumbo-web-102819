@@ -62,4 +62,12 @@ def runner
   invalid_command
   end_game(card_total)
 end
-    
+#     expect($stdout).to receive(:puts).with("Welcome to the Blackjack Table")
+#     expect($stdout).to receive(:puts).with("Your cards add up to 20")
+#     expect($stdout).to receive(:puts).with("Type 'h' to hit or 's' to stay")
+#     expect($stdout).to receive(:puts).with("Your cards add up to 30")
+#     expect($stdout).to receive(:puts).with("Sorry, you hit 30. Thanks for playing!")
+#     runner
+#   end
+# end
+
