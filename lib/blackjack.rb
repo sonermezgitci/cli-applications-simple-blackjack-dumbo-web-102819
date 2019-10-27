@@ -60,5 +60,6 @@ def runner
   hit?(card_total)
   display_card_total(card_total)
   invalid_command
+  end_game(card_total)
 end
     
