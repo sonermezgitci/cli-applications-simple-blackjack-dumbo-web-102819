@@ -61,6 +61,7 @@ def runner
   until card_total > sum= 21
   end_game
 end
+end
 #     expect($stdout).to receive(:puts).with("Welcome to the Blackjack Table")
 #     expect($stdout).to receive(:puts).with("Your cards add up to 20")
 #     expect($stdout).to receive(:puts).with("Type 'h' to hit or 's' to stay")
