@@ -56,9 +56,9 @@ end
 
 def runner
   welcome
-  card_total = ini
+  card_total = initial_round
   hit?
-  display_card_total(card_total)
+  display_card_total > sum= 21
   invalid_command
   end_game(card_total)
 end
