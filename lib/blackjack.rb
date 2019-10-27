@@ -59,7 +59,7 @@ def runner
   card_total = initial_round
   hit?
   display_card_total > sum= 21
-  end_game(card_total)
+  end_game
 end
 #     expect($stdout).to receive(:puts).with("Welcome to the Blackjack Table")
 #     expect($stdout).to receive(:puts).with("Your cards add up to 20")
